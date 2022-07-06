@@ -1,0 +1,13 @@
+.productpage_container {
+    display: flex;
+    margin-top: 2rem
+}
+
+.products_wrapper {
+    width: 100%
+}
+
+.products_list_wrapper {
+    display: flex;
+    flex-wrap: wrap
+}

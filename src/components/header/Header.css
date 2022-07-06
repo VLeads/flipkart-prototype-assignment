@@ -1,0 +1,46 @@
+.header_container {
+    width: 100%;
+    height: 6rem;
+    background-color: #2874F0;
+
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: white;
+    align-items: center;
+    padding-top: 1rem
+}
+
+.search {
+    width: 50rem;
+    padding: 1rem;
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+}
+
+.search:hover {
+    outline: 0;
+}
+
+button {
+    width: 13rem;
+    padding: 10px 6px;
+    cursor: pointer;
+    height: 3.2rem;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    cursor: pointer;
+}
+
+.filter_heading {
+    font-weight: bold;
+}

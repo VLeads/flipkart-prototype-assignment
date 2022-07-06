@@ -1,0 +1,38 @@
+.card_wrapper {
+    width: 27rem;
+    height: 44rem;
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.card_wrapper:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card_img {
+    width: 27rem;
+    height: 34rem;
+}
+
+.cut-price {
+    text-decoration: line-through;
+    font-size: 1.5rem;
+    color: grey
+}
+
+.text_container {
+    padding: 1rem
+}
+
+.tag {
+    width: 6rem;
+    height: 100%
+}
+
+.card_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
